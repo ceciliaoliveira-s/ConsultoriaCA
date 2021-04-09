@@ -31,3 +31,10 @@
     text-decoration: underline;
     transform: scale(1.1);
 }
+
+.main-banner {
+    background: url(../img/img-banner.png) no-repeat center;
+    background-size: 100vw auto;
+    height: 100vh;
+    padding: 30px;
+}
