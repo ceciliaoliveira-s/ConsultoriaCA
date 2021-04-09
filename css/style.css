@@ -15,3 +15,19 @@
     display: flex;
     align-items: center;
 }
+
+.main-action {  
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--color-white); 
+    transition: text-decoration 0.2s, transform 0.2s;
+}
+
+.main-action:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
