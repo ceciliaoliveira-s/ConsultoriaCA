@@ -1,0 +1,17 @@
+.main-header {
+    background-color: var(--color-black);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.849);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.main-header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main-header nav {
+    display: flex;
+    align-items: center;
+}
