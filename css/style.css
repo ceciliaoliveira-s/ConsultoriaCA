@@ -42,3 +42,29 @@
 .wrapper-texts {
     margin-right: 50vw;
 }
+
+.main-banner p {
+    color: var(--color-white);    
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: var(--color-yellow);  
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-subtitle {
+    font-family: 'Comfortaa', cursive;
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
