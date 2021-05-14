@@ -1,70 +1,58 @@
-.main-header {
-    background-color: var(--color-black);
-    border-bottom: 4px solid rgba(0, 0, 0, 0.849);
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+html {
+    font-size: 62.5%;
 }
 
-.main-header .logo {
-    width: 50px;
+html,
+body {
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+.header {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+.header .logo {
     height: 50px;
 }
 
-.main-header nav {
+header nav ul {
     display: flex;
     align-items: center;
 }
 
-.main-action {  
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
+header nav ul li {
+    list-style: none;
+  }
+
+header nav ul li a {  
     display: inline-flex;
     align-items: center;
-    margin-right: 30px;
+    padding: 2.4rem 0 2.4rem 2.4rem;
+    font-weight: bold;
     text-decoration: none;
-    color: var(--color-white); 
+    color: var(--color-black); 
     transition: text-decoration 0.2s, transform 0.2s;
 }
 
-.main-action:hover {
+header nav ul li a:hover {
     text-decoration: underline;
     transform: scale(1.1);
 }
 
-.main-banner {
-    background: url(../img/img-banner.png) no-repeat center;
-    background-size: 100vw auto;
-    height: 100vh;
-    padding: 30px;
-}
-
-.wrapper-texts {
-    margin-right: 50vw;
-}
-
-.main-banner p {
-    color: var(--color-white);    
-    font-family: 'Comfortaa', cursive;
-    font-size: 15px;
-    margin-bottom: 30px;
-    margin-top: 8px;
-    text-align: justify;
-}
-
-.main-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: var(--color-yellow);  
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.main-subtitle {
-    font-family: 'Comfortaa', cursive;
-    color: var(--color-white);
-    font-size: 20px;
-    font-weight: 700;
-    text-align: justify;
+.banner {
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
 }
