@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .header {
+        padding: 20px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #0597F2;
+        height: 4px;
+        width: 100%;
+        margin: 3px auto;
+
+        transition-duration: 0.3s;
+    }
+
+    .menu-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        width: 20px;
+        height: 25px;
+        border: 1px solid #ababab7c;
+        padding: 5px 14px;
+        border-radius: 5px;
+    }
+
+    .logo {
+        z-index: 11;
+    }
+
+    .menu-section.on {        
+        height: 40vh;
+
+        background-color: #F8F9FA;
+        
+        z-index: 10;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 20px;
+        top: 27px;
+        width: 25px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
+
+    .menu-section.on nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 2rem;
+        line-height: 1rem;
+        display: block;
+        font-weight: normal;
+        text-align: start;
+        padding-left: 0;
+    }
+
+}
