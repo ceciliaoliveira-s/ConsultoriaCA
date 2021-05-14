@@ -1,6 +1,6 @@
-# ConsultoriaCA  (Em desenvolvimento 🚧)
+# ConsultoriaCA 🚧
 
-Projeto desenvolvido visando estruturar um site de consultoria em Análise e Inteligência de Dados.
+Projeto em desenvolvimento objetivando estruturar um site de consultoria em Análise e Inteligência de Dados.
 
 https://ceciliaoliveira-s.github.io/ConsultoriaCA/
 
