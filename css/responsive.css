@@ -43,8 +43,6 @@
     }
 
     .menu-section.on {        
-        height: 40vh;
-
         background-color: #F8F9FA;
         
         z-index: 10;
