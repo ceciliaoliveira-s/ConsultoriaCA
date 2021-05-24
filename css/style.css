@@ -1,3 +1,10 @@
+:root {
+    --color-white: #F8F9FA;
+    --color-black: #000;
+    --color-blue: #EEFFFF;
+    --color-line: #DEDEDE;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -5,7 +12,7 @@ html {
 html,
 body {
   height: 100vh;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Basic', sans-serif;
 }
 
 body {
@@ -38,7 +45,6 @@ header nav ul li a {
     display: inline-flex;
     align-items: center;
     padding: 2.4rem 0 2.4rem 2.4rem;
-    font-weight: bold;
     text-decoration: none;
     color: var(--color-black); 
     transition: text-decoration 0.2s, transform 0.2s;
@@ -50,9 +56,48 @@ header nav ul li a:hover {
 }
 
 .banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
     height: 100%;
+    color: var(--color-white);
     background-image: url(../img/background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
+    padding: 100px 50px;
+}
+
+.banner .text {
+    width: 50%;
+}
+
+.banner .text h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.banner .text h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.banner .text p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.banner .request {
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Basic', sans-serif;
 }
