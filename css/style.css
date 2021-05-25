@@ -66,7 +66,7 @@ header nav ul li a:hover {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
-    padding: 100px 50px;
+    padding: 10rem 5rem;
 }
 
 .banner .text {
@@ -94,7 +94,7 @@ header nav ul li a:hover {
 }
 
 .banner .request {
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     border-radius: 10px;
     border: none;
     font-size: 2rem;
