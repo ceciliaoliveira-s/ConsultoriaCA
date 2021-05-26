@@ -5,26 +5,31 @@
 }
 @media (max-width: 850px) {
     html {
-        font-size: 35%;
+        font-size: 40%;
     }
 }
 
 @media (max-width: 660px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
 }
 
 @media (max-width: 540px) {
-    html {
-        font-size: 15%;
-    }
     .header {
         padding: 20px 20px;
     }
 
+    html {
+      font-size: 25%;
+    }
+
     nav {
         display: none;
+    }
+
+    .banner .text {
+      width: 70%;
     }
 
     .one,
@@ -103,5 +108,11 @@
         padding-left: 0;
     }
 
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 20%;
+  }
 }
 
