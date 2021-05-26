@@ -5,6 +5,25 @@
     --color-line: #DEDEDE;
 }
 
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 2rem;  
+}
+
+.button {
+  background-color: #2a2a2e;
+  color: var(--color-white);
+  border: none;
+  height: 4rem;
+  width: 12rem;
+  font-size: 1.4rem;
+  border-radius: 10px;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -98,4 +117,54 @@ header nav ul li a:hover {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Basic', sans-serif;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 5rem 0 5rem;
+  background-color: var(--color-blue);
+}
+
+.portfolio .intro {
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.portfolio .intro h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio .dashboard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.portfolio .dashboard:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.portfolio .dashboard img {
+  width: 50%;
+}
+
+.portfolio .dashboard:nth-child(even) div {
+  text-align: right;
+}
+
+.portfolio .dashboard div {
+  text-align: left;
+}
+
+.portfolio .dashboard .subtitle {
+  margin-bottom: 1rem;
+}
+
+.portfolio .button {
+  margin: 0 2rem;
 }
