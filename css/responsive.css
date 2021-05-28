@@ -5,26 +5,31 @@
 }
 @media (max-width: 850px) {
     html {
-        font-size: 35%;
+        font-size: 40%;
     }
 }
 
 @media (max-width: 660px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
 }
 
 @media (max-width: 540px) {
-    html {
-        font-size: 15%;
-    }
     .header {
         padding: 20px 20px;
     }
 
+    html {
+      font-size: 25%;
+    }
+
     nav {
         display: none;
+    }
+
+    .banner .text {
+      width: 70%;
     }
 
     .one,
@@ -103,5 +108,63 @@
         padding-left: 0;
     }
 
+}
+
+@media (max-width: 480px) {
+  .services .tool.-powerbi {
+    border-right: 1px solid var(--color-line);
+    border-bottom: 1px solid var(--color-line);
+  }
+  
+  .services .tool.-mysql {
+    border-bottom: 1px solid var(--color-line);
+  }
+  
+  .services .tool.-analysis {
+    border-bottom: 1px solid var(--color-line);
+    border-right: 1px solid var(--color-line);
+    border-left: 0;
+  }
+  
+  .services .tool.-story {
+    border-right: 1px solid var(--color-line);
+    border-left: 0;
+  }
+
+  .services .tool.-excel {
+    border-bottom: 1px solid var(--color-line);
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media (max-width: 318px) {
+  .services .tool.-powerbi {
+    border-right: 0;
+    border-bottom: 0;
+  }
+  
+  .services .tool.-mysql {
+    border-bottom: 0;
+  }
+  
+  .services .tool.-analysis {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  
+  .services .tool.-story {
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .services .tool.-excel {
+    border-bottom: 0;
+  }
 }
 
