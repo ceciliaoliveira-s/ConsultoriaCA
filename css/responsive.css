@@ -39,7 +39,6 @@
         height: 4px;
         width: 100%;
         margin: 3px auto;
-
         transition-duration: 0.3s;
     }
 
@@ -54,6 +53,7 @@
         border: 1px solid #ababab7c;
         padding: 5px 14px;
         border-radius: 5px;
+        box-sizing: content-box;
     }
 
     .logo {
