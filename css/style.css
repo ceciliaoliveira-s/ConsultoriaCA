@@ -213,3 +213,57 @@ header nav ul li a:hover {
 .services .tool .subtitle {
   margin: 1rem 0 2rem 0;
 }
+
+.mvv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-blue);
+  padding: 4rem 5rem 4rem 5rem;
+}
+
+.mvv .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mvv .proposal {
+  width: 30rem;
+}
+
+.mvv .proposal p {
+  width: 20rem;
+}
+
+.mvv .proposal .mvv-logo {
+  width: 5rem;
+}
+
+.mvv .mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mvv .mission .mvv-img {
+  width: 20rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.mvv .vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mvv .value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
