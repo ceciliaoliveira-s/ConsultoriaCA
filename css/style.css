@@ -3,6 +3,7 @@
     --color-black: #000;
     --color-blue: #EEFFFF;
     --color-line: #DEDEDE;
+    --color-form: #f7f7f7;
 }
 
 .title {
@@ -22,6 +23,7 @@
   width: 12rem;
   font-size: 1.4rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 html {
@@ -117,6 +119,7 @@ header nav ul li a:hover {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Basic', sans-serif;
+    cursor: pointer;
 }
 
 .portfolio {
@@ -266,4 +269,52 @@ header nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.contact {
+    padding: 4rem 5rem 4rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .container {
+    width: 60%;
+}
+
+.contact input {
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid var(--color-line  );
+    font-size: 3rem;
+    height: 5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    outline: none;
+    background-color: var(--color-form);
+}
+
+.contact textarea {
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid var(--color-line  );
+    font-size: 3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    outline: none;
+    height: 25rem;
+    margin-top: 0.7rem;
+    margin-bottom: 4rem;
+    background-color: var(--color-form);
+}
+
+.contact .contact-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact .button {
+    width: 20rem;
+    box-shadow: 2px 2px 3px #000;
 }

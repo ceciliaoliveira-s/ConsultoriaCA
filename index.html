@@ -158,23 +158,29 @@
             </div>
         </div>
     </section>
-    <form action="contato-form" method="post">
-        <legend class="title"> Fale conosco</legend>
-        <div>
-            <label for="contato-nome">Nome:</label>
-            <input type="contato-text" id="nome" />
-        </div>
-        <div>
-            <label for="contato-email">E-mail:</label>
-            <input type="email" id="email"/>
-        </div>
-        <div>
-            <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
-        </div>
-        <div class="contato-button">
-            <button type="submit">Enviar</button>
-        </div>
+    <form class="contact">
+        <div class="container">
+            <legend class="title">Fale conosco</legend>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email"/>
+            </div>
+            <div>
+                <label for="subject">Assunto:</label>
+                <input type="text" name="subject"/>
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea name="msg"></textarea>
+            </div>
+            <div class="contact-button">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </div>     
     </form>
     <script src="js/menu.js"></script>
 </body>
