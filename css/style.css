@@ -318,3 +318,41 @@ header nav ul li a:hover {
     width: 20rem;
     box-shadow: 2px 2px 3px #000;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 5rem;
+    background-color: #2a2a2e;
+    color: #fff;
+}
+
+footer .location,
+footer .email,
+footer .whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .location img,
+footer .email img,
+footer .whatsapp img{
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+footer .social .linkedin {
+    margin-bottom: 2rem;
+}
+
+footer .social div {
+    display: flex;
+    align-items: center;
+}
+
+footer .social div img {
+    width: 3rem;
+    margin-right: 1rem;
+}
