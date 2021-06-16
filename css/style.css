@@ -120,6 +120,9 @@ header nav ul li a:hover {
     font-weight: bold;
     font-family: 'Basic', sans-serif;
     cursor: pointer;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-decoration: none;
 }
 
 .portfolio {
