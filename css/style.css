@@ -126,7 +126,7 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 5rem 0 5rem;
+  padding: 8rem 5rem 0 5rem;
   background-color: var(--color-blue);
 }
 
@@ -173,7 +173,7 @@ header nav ul li a:hover {
 }
 
 .services {
-  padding: 4rem 5rem 0 5rem;
+  padding: 8rem 5rem 0 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,7 +222,7 @@ header nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   background-color: var(--color-blue);
-  padding: 4rem 5rem 4rem 5rem;
+  padding: 8rem 5rem 4rem 5rem;
 }
 
 .mvv .content {
@@ -272,7 +272,7 @@ header nav ul li a:hover {
 }
 
 .contact {
-    padding: 4rem 5rem 4rem 5rem;
+    padding: 8rem 5rem 4rem 5rem;
     display: flex;
     justify-content: center;
 }
