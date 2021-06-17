@@ -305,7 +305,7 @@ header nav ul li a:hover {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     outline: none;
-    height: 25rem;
+    height: 10rem;
     margin-top: 0.7rem;
     margin-bottom: 4rem;
     background-color: var(--color-form);
