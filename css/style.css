@@ -19,8 +19,7 @@
   background-color: #2a2a2e;
   color: var(--color-white);
   border: none;
-  height: 4rem;
-  width: 12rem;
+  padding: 1.5rem 5rem;
   font-size: 1.4rem;
   border-radius: 10px;
   cursor: pointer;
