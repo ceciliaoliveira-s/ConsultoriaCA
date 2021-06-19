@@ -4,6 +4,7 @@
     --color-blue: #EEFFFF;
     --color-line: #DEDEDE;
     --color-form: #f7f7f7;
+    --color-button: #2a2a2e;
 }
 
 .title {
@@ -16,7 +17,7 @@
 }
 
 .button {
-  background-color: #2a2a2e;
+  background-color: var(--color-button);
   color: var(--color-white);
   border: none;
   padding: 1.5rem 5rem;
@@ -128,7 +129,7 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8rem 5rem 0 5rem;
+  padding: 8rem 5rem 3rem 5rem;
   background-color: var(--color-blue);
 }
 
@@ -155,7 +156,7 @@ header nav ul li a:hover {
 }
 
 .portfolio .dashboard img {
-  width: 50%;
+  width: 40%;
 }
 
 .portfolio .dashboard:nth-child(even) div {
@@ -172,6 +173,28 @@ header nav ul li a:hover {
 
 .portfolio .button {
   margin: 0 2rem;
+}
+
+.portfolio .acess {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.portfolio .more {
+    margin-left: 1.5rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    border-radius: 15px;
+    /* background-image: linear-gradient( #ffffff, #cacaca); */
+    box-shadow: 2px 2px 5px rgb(110, 110, 110);
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.2s linear;
+}
+
+.portfolio .more:hover {
+    box-shadow: 4px 4px 5px rgb(110, 110, 110);
 }
 
 .services {
@@ -326,7 +349,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 6rem 5rem;
-    background-color: #2a2a2e;
+    background-color: var(--color-button);
     color: #fff;
 }
 
