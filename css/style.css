@@ -24,6 +24,11 @@
   font-size: 1.4rem;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 5px rgb(110, 110, 110);
 }
 
 html {
@@ -113,7 +118,7 @@ header nav ul li a:hover {
 }
 
 .banner .request {
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 3rem;
     border-radius: 10px;
     border: none;
     font-size: 2rem;
@@ -123,6 +128,11 @@ header nav ul li a:hover {
     background-color: var(--color-white);
     color: var(--color-black);
     text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.banner .request:hover {
+    color: rgb(80, 80, 80);
 }
 
 .portfolio {
