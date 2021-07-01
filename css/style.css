@@ -22,13 +22,13 @@
   border: none;
   padding: 1.5rem 5rem;
   font-size: 1.4rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
   transition: all 0.2s linear;
 }
 
 .button:hover {
-    box-shadow: 2px 2px 5px rgb(110, 110, 110);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(110, 110, 110);
 }
 
 html {
@@ -51,11 +51,11 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 10px 40px;
+    padding: 1rem 4rem;
 }
 
 .header .logo {
-    height: 50px;
+    height: 5rem;
 }
 
 header nav ul {
@@ -86,44 +86,44 @@ header nav ul li a:hover {
     align-items: flex-start;
     justify-content: space-between;
     color: var(--color-white);
-    background: url(../img/background.jpg) no-repeat;
-    background-size: auto;
+    background: url(../img/background2.jpg) no-repeat;
+    background-size: cover;
     padding: 10rem 5rem 4rem 5rem;
 }
 
 .banner .text {
-    width: 70%;
+    width: 50%;
 }
 
 .banner .text h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
     font-family: 'Source Code Pro', monospace;
 }
 
 .banner .text h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
 }
 
 .banner .text p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: justify;
     margin-bottom: 3rem;
 }
 
 .banner .request {
     padding: 1.5rem 3rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Basic', sans-serif;
     cursor: pointer;
-    background-color: var(--color-white);
+    background-color: #DEDEDE;
     color: var(--color-black);
     text-decoration: none;
     transition: all 0.2s linear;
@@ -193,16 +193,16 @@ header nav ul li a:hover {
     margin-left: 1.5rem;
     padding: 1rem 3rem;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     /* background-image: linear-gradient( #ffffff, #cacaca); */
-    box-shadow: 2px 2px 5px rgb(110, 110, 110);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(110, 110, 110);
     color: #000;
     border: 0.2rem solid #000;
     transition: all 0.2s linear;
 }
 
 .portfolio .more:hover {
-    box-shadow: 4px 4px 5px rgb(110, 110, 110);
+    box-shadow: 0.4rem 0.4rem 0.5rem rgb(110, 110, 110);
 }
 
 .services {
@@ -223,27 +223,31 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify;
   padding: 4rem 2rem;
+  text-align: center;
+}
+
+.services .tool p {
+    text-align: justify;
 }
 
 .services .tool.-powerbi {
-  border-right: 1px solid var(--color-line);
-  border-bottom: 1px solid var(--color-line);
+  border-right: 0.1rem solid var(--color-line);
+  border-bottom: 0.1rem solid var(--color-line);
 }
 
 .services .tool.-mysql {
-  border-bottom: 1px solid var(--color-line);
+  border-bottom: 0.1rem solid var(--color-line);
 }
 
 .services .tool.-analysis {
-  border-bottom: 1px solid var(--color-line);
-  border-left: 1px solid var(--color-line);
+  border-bottom: 0.1rem solid var(--color-line);
+  border-left: 0.1rem solid var(--color-line);
 }
 
 .services .tool.-story {
-  border-right: 1px solid var(--color-line);
-  border-left: 1px solid var(--color-line);
+  border-right: 0.1rem solid var(--color-line);
+  border-left: 0.1rem solid var(--color-line);
 }
 
 .services .tool .subtitle {
@@ -316,8 +320,8 @@ header nav ul li a:hover {
 
 .contact input {
     width: 100%;
-    border-radius: 2px;
-    border: 2px solid var(--color-line  );
+    border-radius: 0.2rem;
+    border: 0.2rem solid var(--color-line  );
     font-size: 3rem;
     height: 5rem;
     padding-left: 0.7rem;
@@ -330,8 +334,8 @@ header nav ul li a:hover {
 
 .contact textarea {
     width: 100%;
-    border-radius: 2px;
-    border: 2px solid var(--color-line  );
+    border-radius: 0.2rem;
+    border: 0.2rem solid var(--color-line  );
     font-size: 3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -349,8 +353,7 @@ header nav ul li a:hover {
 }
 
 .contact .button {
-    width: 20rem;
-    box-shadow: 2px 2px 3px #000;
+    box-shadow: 0.2rem 0.2rem 0.3rem #000;
 }
 
 footer {
