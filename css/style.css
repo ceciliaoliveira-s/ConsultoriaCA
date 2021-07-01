@@ -86,10 +86,8 @@ header nav ul li a:hover {
     align-items: flex-start;
     justify-content: space-between;
     color: var(--color-white);
-    background-image: url(../img/background.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: auto;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: auto;
     padding: 10rem 5rem 4rem 5rem;
 }
 
@@ -342,6 +340,7 @@ header nav ul li a:hover {
     margin-top: 0.7rem;
     margin-bottom: 4rem;
     background-color: var(--color-form);
+    resize: none;
 }
 
 .contact .contact-button {
