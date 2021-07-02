@@ -38,6 +38,7 @@ button:hover, .button:hover, a.request:hover, a.more:hover {
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth; 
 }
 
 html,
