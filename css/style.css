@@ -24,11 +24,16 @@
   font-size: 1.4rem;
   border-radius: 1rem;
   cursor: pointer;
-  transition: all 0.2s linear;
 }
 
-.button:hover {
-    box-shadow: 0.2rem 0.2rem 0.5rem rgb(110, 110, 110);
+button, .button, .request, .more {
+    transition: all 0.2s linear;
+}
+
+button:hover, .button:hover, a.request:hover, a.more:hover {
+    filter: brightness(1.5);
+    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 html {
@@ -56,6 +61,11 @@ body {
 
 .header .logo {
     height: 5rem;
+    transition: transform 0.2s linear;
+}
+
+.header .logo:hover {
+    transform: scale(1.2);
 }
 
 header nav ul {
@@ -127,10 +137,6 @@ header nav ul li a:hover {
     color: var(--color-black);
     text-decoration: none;
     transition: all 0.2s linear;
-}
-
-.banner .request:hover {
-    color: rgb(80, 80, 80);
 }
 
 .portfolio {
