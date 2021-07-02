@@ -230,6 +230,10 @@
 
 @media (max-width: 500px) {
 
+    .banner .request {
+        display: none;
+    }
+
     .title {
         font-size: 3rem;
     }
@@ -304,22 +308,7 @@
         margin-left: 1.5rem;
         padding: 0.7rem 2rem;
     }
-
-    .contact .container {
-        width: 90%;
-        }
-}
-
-@media (max-width: 400px) {
-
-    .title {
-        font-size: 2.5rem;
-    }
-
-    .banner .request {
-        display: none;
-    }
-
+    
     .portfolio .dashboard {
         display: flex;
         flex-direction: column-reverse;
@@ -343,6 +332,17 @@
       .portfolio .button {
           margin: 1rem 0 1rem 0;
       }
+
+    .contact .container {
+        width: 90%;
+        }
+}
+
+@media (max-width: 400px) {
+
+    .title {
+        font-size: 2.5rem;
+    }
 
 
       .mvv .proposal p {
