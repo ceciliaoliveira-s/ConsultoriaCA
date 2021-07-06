@@ -54,7 +54,13 @@ body {
 #header {
     width: 100%;
     background-color: var(--color-white);
-    transition: background ease-out 0.2s;
+}
+
+#header.active {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
 }
 
 #header .logo {
@@ -392,33 +398,4 @@ footer .social div {
 footer .social div img {
     width: 3rem;
     margin-right: 1rem;
-}
-
-.back-to-top {
-    background-color: #38322e;
-    border-radius: 50%;
-    border: 0.1rem solid var(--color-black);
-    bottom: 14px;
-    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
-    color: #d9a000;
-    cursor: pointer;
-    height: 40px;
-    position: fixed;
-    right: 22px;
-    width: 40px;
-    z-index: 3;
-    text-decoration: none;
-    transition: all 0.2s linear;
-}
-
-.back-to-top::after {
-    content: '▲';
-    display: flex;
-    justify-content: center;
-    padding-left: 1px;
-    padding-top: 10px;  
-}
-
-.back-to-top:hover {
-    transform: scale(1.1);
 }
