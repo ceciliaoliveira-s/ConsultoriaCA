@@ -220,13 +220,14 @@ header nav ul li a:hover {
 }
 
 .services .tools-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "one two three"
+                       "four five six";
 }
 
 .services .tool {
-  flex: 1 1 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;

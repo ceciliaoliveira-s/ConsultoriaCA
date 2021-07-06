@@ -1,4 +1,14 @@
-@media (max-width: 1000px) {
+@media (max-width: 840px) {
+
+    .services .tools-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "one two"
+                             "three four"
+                             "five six";
+    }
+
     .services .tool.-powerbi {
         border-right: 0.1rem solid var(--color-line);
         border-bottom: 0.1rem solid var(--color-line);
@@ -248,6 +258,11 @@
 
       .mvv .proposal .mvv-logo {
           width: 3rem;
+      }
+
+      .services .tools-wrapper {
+        display: flex;
+        flex-direction: column;
       }
 
   .services .tool.-powerbi {
