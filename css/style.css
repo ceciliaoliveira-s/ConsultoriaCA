@@ -328,7 +328,7 @@ body {
     width: 100%;
     border-radius: 0.2rem;
     border: 0.2rem solid var(--color-line  );
-    font-size: 3rem;
+    font-size: 2rem;
     height: 5rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -342,7 +342,7 @@ body {
     width: 100%;
     border-radius: 0.2rem;
     border: 0.2rem solid var(--color-line  );
-    font-size: 3rem;
+    font-size: 2rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     outline: none;
