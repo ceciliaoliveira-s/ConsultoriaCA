@@ -1,3 +1,17 @@
+@media (max-width: 991.98px) {
+    #header .navbar-collapse {
+        width: 100%;
+    }
+
+    #header .nav-link {
+        margin: 0;
+    }
+
+    #header .nav-link:hover {
+        transform: none;
+    }
+}
+
 @media (max-width: 840px) {
 
     .services .tools-wrapper {
@@ -65,10 +79,6 @@
 }
 
 @media (max-width: 700px) {
-    .services .tool {
-        flex: 1 1 20rem;
-    }
-
     .mvv .proposal {
         width: 15rem;
       }
@@ -84,94 +94,6 @@
 
 
 @media (max-width: 600px) {
-    .header {
-        padding: 2rem 2rem;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .banner .text {
-      width: 70%;
-    }
-
-    .one,
-    .two,
-    .three {
-        background-color: #0597F2;
-        height: 0.4rem;
-        width: 100%;
-        margin: 0.3rem auto;
-        transition-duration: 0.3s;
-    }
-
-    .menu-section {
-        display: flex;
-        align-items: center;
-    }
-
-    .menu-toggle {
-        width: 2rem;
-        height: 2.5rem;
-        border: 0.1rem solid #ababab7c;
-        padding: 0.5rem 1.4rem;
-        border-radius: 0.5rem;
-        box-sizing: content-box;
-    }
-
-    .logo {
-        z-index: 11;
-    }
-
-    .menu-section.on {        
-        background-color: #F8F9FA;
-        
-        z-index: 10;
-
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .menu-section.on nav {
-        display: block;
-    }
-
-    .menu-section.on .menu-toggle {
-        position: absolute;
-        right: 2rem;
-        top: 2.7rem;
-        width: 2.5rem;
-    }
-
-    .menu-section.on .menu-toggle .one {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .menu-section.on .menu-toggle .two {
-        opacity: 0;
-    }
-
-    .menu-section.on .menu-toggle .three {
-        transform: rotate(-45deg) translate(5px, -6px);
-    }
-
-    .menu-section.on nav ul {
-        text-align: center;
-        display: block;
-    }
-
-    .menu-section.on nav ul a{
-        transition-duration: 0.5s;
-        font-size: 2rem;
-        line-height: 1rem;
-        display: block;
-        font-weight: normal;
-        text-align: start;
-        padding-left: 0;
-    }
-
     .banner {
         padding: 7rem 3rem 2rem 3rem;
     }
@@ -365,4 +287,3 @@
       }
   
 }
-

@@ -51,45 +51,37 @@ body {
     font-size: 1.5rem;
 }
 
-.header {
+#header {
+    width: 100%;
     background-color: var(--color-white);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    padding: 1rem 4rem;
+    transition: background ease-out 0.2s;
 }
 
-.header .logo {
+#header .logo {
     height: 5rem;
     transition: transform 0.2s linear;
 }
 
-.header .logo:hover {
+#header .logo:hover {
     transform: scale(1.2);
 }
 
-header nav ul {
-    display: flex;
-    align-items: center;
+#header .navbar-collapse {
+    width: auto;
+    justify-content: flex-end;
 }
 
-header nav ul li {
-    list-style: none;
-  }
-
-header nav ul li a {  
-    display: inline-flex;
-    align-items: center;
-    padding: 2.4rem 0 2.4rem 2.4rem;
-    text-decoration: none;
+#header .nav-link {
     color: var(--color-black); 
-    transition: text-decoration 0.2s, transform 0.2s;
+    margin: 0 1.5rem;
+    border-bottom: .4rem solid transparent;
+    border-top: .4rem solid transparent;
+    transition: border-bottom 0.2s, transform 0.2s;
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
+#header .nav-link:hover {
     transform: scale(1.1);
+    border-bottom: .4rem solid var(--color-black);
 }
 
 .banner {
