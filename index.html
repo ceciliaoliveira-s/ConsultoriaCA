@@ -168,7 +168,8 @@
         </div>
     </section>
 
-    <form class="contact" id="contact">
+    <form action="https://api.staticforms.xyz/submit" method="POST" class="contact" id="contact">
+        <input type="hidden" name="accessKey" value="344e0103-e887-4da6-a64f-2009c6670b8d">
         <div class="container">
             <legend class="title">Fale conosco</legend>
             <div>
@@ -185,7 +186,7 @@
             </div>
             <div>
                 <label for="msg">Mensagem:</label>
-                <textarea name="msg"></textarea>
+                <textarea name="message"></textarea>
             </div>
             <div class="contact-button">
                 <button class="button" type="submit">Enviar</button>
